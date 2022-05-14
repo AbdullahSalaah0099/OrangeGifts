@@ -293,6 +293,7 @@ if True :
     
     if (r.json()["ErrorCode"])==0:
         print ('\033[1;96mDone Add Megabytes')
+        exit()
     elif(r.json()["ErrorCode"])==13:
         print ('\033[1;91mctv & htv unexpired')
         print ('be fast')
