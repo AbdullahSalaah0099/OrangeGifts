@@ -213,6 +213,10 @@ c=(r2["OfferId"])
 if (r2["ErrorCode"]==9):
     print ('\033[1;91mError Number Or Password')
     exit()
+elif(r2.json()["ErrorCode"])==13: 
+    print ('\033[1;91mctv & htv unexpired') 
+    print ('be fast')
+    exit()
 elif (r2["ErrorCode"]==16):
     print ('\033[1;91mError ctv Or htv')
     exit()
