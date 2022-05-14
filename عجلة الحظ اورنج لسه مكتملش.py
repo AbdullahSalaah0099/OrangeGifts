@@ -8,7 +8,7 @@ print ()
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link="\033[1;93m https://pastelink.net/vsngvbe8"
+link="\033[1;93m https://miklpro.com/QzOXcszU"
 print (link)
 #sleep (1)
 print ()
