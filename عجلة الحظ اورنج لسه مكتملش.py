@@ -72,7 +72,7 @@ for I in vg+'\n':
 	time.sleep (00.010)
 
 print ()
-i='\033[;092m Telegram channel : \n\n◇ http://t.me/Techno0099\n\n\nYouttube channel  :\n \n◇ https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg '
+i='\033[;092m Telegram channel : \n\n◇ http://t.me/Techno0099\n\n\nYouttube channel  :\n \n◇ https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg\n\n\nFacbook : \n\nhttps://www.facebook.com/AbdullahSalah0099/'
 for I in i +'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
